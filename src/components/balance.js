@@ -1,10 +1,7 @@
 import React, { useContext } from 'react';
 import { GlobalContext } from '../Context/GlobalState';
 
-// Create the initial state
-const initialState = {
-    transactions: []
-}
+
 
 export const Balance = () => {
     const { transactions } = useContext(GlobalContext);
