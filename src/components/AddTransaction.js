@@ -17,7 +17,7 @@ const onSubmit = e => {
     amount: +amount
   }
 
-  AddTransaction(newTransaction);
+  addTransaction(newTransaction);
 }
 
     return (
