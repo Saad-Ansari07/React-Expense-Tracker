@@ -2,10 +2,7 @@ import React, { useContext } from 'react';
 import { Transaction } from './Transaction';
 import { GlobalContext } from '../Context/GlobalState';
 
-// Create the initial state
-const initialState = {
-  transactions: []
-}
+
 
 
 
