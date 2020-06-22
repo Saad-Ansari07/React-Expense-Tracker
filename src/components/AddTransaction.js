@@ -21,7 +21,7 @@ const onSubmit = e => {
 }
 
     return (
-        <div>
+        <>
         <h3>Add new transaction</h3>
         <form onSubmit={onSubmit}>
           <div className="form-control">
@@ -37,6 +37,6 @@ const onSubmit = e => {
           </div>
           <button className="btn">Add transaction</button>
         </form>
-      </div>
+      </>
     )
 }
