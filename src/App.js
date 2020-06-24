@@ -4,6 +4,7 @@ import './App.css';
 // Importing components 
 import { Header } from './components/header';
 import { Balance } from './components/balance';
+import { darkMode } from './components/darkmode';
 import { IncomeExpenses } from './components/IncomeExpenses';
 import { TransactionList } from './components/TransactionList';
 import { AddTransaction } from './components/AddTransaction';
@@ -19,6 +20,7 @@ function App() {
       <IncomeExpenses/>
       <TransactionList/>
       <AddTransaction/>
+      <darkMode/>
      </div>
     </GlobalProvider>
   );
