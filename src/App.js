@@ -20,7 +20,7 @@ function App() {
       <IncomeExpenses/>
       <TransactionList/>
       <AddTransaction/>
-      <darkMode/>
+      <DarkMode/>
      </div>
     </GlobalProvider>
   );
