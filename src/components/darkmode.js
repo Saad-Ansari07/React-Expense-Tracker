@@ -1,5 +1,4 @@
-import { React, useState } from 'react';
-
+import React, { useState } from 'react';
 
 // className={`darkmode ${isDark? "light": "dark"}`}
 
