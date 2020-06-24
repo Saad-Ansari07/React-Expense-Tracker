@@ -46,9 +46,17 @@ body {
                 5px 5px 15px rgba(0, 0, 0, 0.5);
 }
 
+.container h2 {
+    color: #c7c7c7;
+    font-weight: 500px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
 h1 {
   letter-spacing: 1px;
   margin: 0;
+  color: #999;
 }
 
 h3 {
@@ -62,14 +70,24 @@ h4 {
   text-transform: uppercase;
 }
 
-.inc-exp-container {
+/* .inc-exp-container {
   background-color: #fff;
   box-shadow: var(--box-shadow);
   padding: 20px;
   display: flex;
   justify-content: space-between;
   margin: 20px 0;
+} */
+
+.inc-exp-container {
+  background-color: black;
+  box-shadow: var(--box-shadow);
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
 }
+
 
 .inc-exp-container > div {
   flex: 1;
@@ -87,7 +105,7 @@ h4 {
 }
 
 .money.plus {
-  color: #2ecc71;
+  color: #0afc32;
 }
 
 .money.minus {
