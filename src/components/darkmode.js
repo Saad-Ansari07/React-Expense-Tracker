@@ -4,7 +4,7 @@ import React, { useState } from 'react';
 
 
 
-export const darkMode = () => {
+export const DarkMode = () => {
     const [isDark, toggleDark] = useState(false);
 
     function toggle() {
